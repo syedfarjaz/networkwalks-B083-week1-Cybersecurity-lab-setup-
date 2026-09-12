@@ -68,7 +68,7 @@ This lab provides an isolated, controlled environment for cybersecurity learning
 
 ## 🏗️ Lab Architecture
 
-*(Add a screenshot or diagram of your lab topology here, e.g. `![](lab-topology.png)`)*
+![](lab-architecture.png)
 
 Additional target machines can be added to the same virtual network in future projects.
 
@@ -121,7 +121,7 @@ DHCP:         Enabled
 IPv6:         Disabled
 ```
 
-*(Insert screenshot of your NAT Network settings here)*
+![](nat-network.png)
 
 A NAT Network was chosen because multiple VMs attached to it can communicate with each other while still having outbound internet access 
 
@@ -148,7 +148,7 @@ The VM was allocated:
 RAM: 4096 MB
 ```
 
-*(Insert screenshot of your imported Kali VM here)*
+![](kali.png)
 
 A shared folder was also set up for transferring files between the host machine and the Kali VM.
 
@@ -165,7 +165,7 @@ Gateway: 10.0.0.1
 DNS: 8.8.8.8
 ```
 
-*(Insert screenshot of your Kali network settings here)*
+![](linux-network.png)
 
 A fixed IP makes the lab easier to document and reference in future exercises.
 
@@ -239,7 +239,6 @@ Fixed by:
 4. Saving and restarting.
 5. Booting the Kali VM again — it started successfully.
 
-*(Replace or add any additional problems you personally ran into.)*
 
 ---
 
@@ -278,7 +277,7 @@ This lab is strictly for educational purposes and authorized testing only.
 
 # 👤 Author
 
-**Syed Muhammad Farjaz** (Legion)
+**Syed Muhammad Farjaz**
 
 ---
 
